@@ -4,7 +4,7 @@ body {
   margin: 0;
   height: 100vh;
   background-color: #111;
-  color: orangered;
+  
   font-family: 'Fredericka the Great', serif;
 }
 
@@ -20,4 +20,9 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: orangered;
+  font-size: 45px;
+  border-top: 5px solid goldenrod;
+  border-bottom: 5px solid goldenrod;
+  padding: 8px 0;
 }
