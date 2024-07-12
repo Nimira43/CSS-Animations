@@ -1,1 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #111;
+  color: orangered;
+  font-family: 'Fredericka the Great', serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
